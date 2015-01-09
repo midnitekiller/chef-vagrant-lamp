@@ -73,8 +73,6 @@ Just fork the cookbook and feel free to enhance.
 
 # Author
 
-Lief Jill Colegado
+midnitekiller
 		
-DevOps Appfibre
 
-liefjillcolegado@gmail.com
