@@ -47,25 +47,13 @@ To login to the vagrant box
 `$ vagrant ssh`
 
 ### Initial Configration
-`$ a2ensite` to enable apache default site
 
-`$ cp /usr/local/src/loader-wizard.php /var/www` to copy sources to web root
-
-you can now browse [http://33/33/33/122/loader-wizard.php](http://33/33/33/122/loader-wizard.php) for setup
 
 ## Cloud Provisioning
 
-To provision the environment on a virtual server, knife solo is used, run the following command to do an initial chef configuration and a chef run.
-
-`$ knife-solo bootstrap username@host -i ~/.ssh/yoursshkey -N test`
-
-Then follow the same configuration steps on your server from above.
-
 ## Deploying changes
 
-To deploy changes run the following
 
-`$ knife-solo cook username@host -i ~/.ssh/yoursshkey -N test`
 
 # Contributions
 
