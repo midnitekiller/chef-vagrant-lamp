@@ -14,6 +14,8 @@ depends "apt"
 depends "build-essential"
 depends "git"
 depends "vim"
+depends "apache2"
+depends "php"
 
 %w{ debian ubuntu windows centos redhat scientific oracle }.each do |os|
   supports os
